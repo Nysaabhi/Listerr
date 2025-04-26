@@ -498,7 +498,7 @@ body > h1:first-of-type:not(.heading) {
     </header>
 
     <div class="main-container">
-        <h2 style="text-align: center; margin-top: 0px; margin-bottom: 40px; color: var(--primary-color);">Create a New Listing</h2>
+        <h2 style="text-align: center; margin-top: -20px; margin-bottom: 40px; color: var(--primary-color);">Create a New Listing</h2>
         
         <div class="listing-types">
             <div class="listing-card" onclick="showForm('serviceProviderForm')">
