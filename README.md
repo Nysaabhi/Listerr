@@ -478,6 +478,15 @@ body > h1:first-of-type:not(.heading) {
     display: none !important; 
 }
 
+.markdown-body h1:first-child { 
+    display: none !important; 
+}
+
+.position-relative h1:first-child { 
+    display: none !important; 
+}
+
+
     </style>
 </head>
 <body>
@@ -489,7 +498,7 @@ body > h1:first-of-type:not(.heading) {
     </header>
 
     <div class="main-container">
-        <h1 style="text-align: center; margin-bottom: 30px; color: var(--primary-color);">Create a New Listing</h1>
+        <h2 style="text-align: center; margin-bottom: 30px; color: var(--primary-color);">Create a New Listing</h2>
         
         <div class="listing-types">
             <div class="listing-card" onclick="showForm('serviceProviderForm')">
